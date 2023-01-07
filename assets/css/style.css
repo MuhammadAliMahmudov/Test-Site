@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+nav {
+  width: 1500px;
+  height: 60px;
+  background-color: #353a40;
+  border-radius: 5px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 0px;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul img {
+  width: 50px;
+  height: 50px;
+  margin: 17px 20px;
+}
+
+nav ul .right {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  margin: 16.5px 0px;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+nav ul #drop ul a {
+  margin: 0px auto;
+}
+
+nav ul #drop ul {
+  position: absolute;
+  left: 17.8%;
+  top: 100%;
+  display: none;
+  background-color: #586069;
+  width: 150px;
+}
+
+nav ul #drop:hover ul {
+  display: block;
+}
+
+.right {
+  margin-left: 62.25%;
+}
+
+.right li input {
+  width: 170px;
+  height: 30px;
+  margin: 30px 10px;
+  border: none;
+  outline: none;
+}
+
+.right li .s {
+  width: 100px;
+  height: 30px;
+  margin: 30px 0px;
+  outline: none;
+  border: none;
+  background-color: rgba(240, 248, 255, 0);
+  color: green;
+  border: 1px solid green;
+}
+
+.right li .s:active {
+  border: 3px solid green;
+}
+
+.right li .s:hover {
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.right li .signin {
+  padding: 10px 20px;
+  margin: 20px;
+  width: 100px;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+/* End navbar */
+
+/* Sign up */
+
+.sigin {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #353a40;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  transition: all 1s;
+  padding: 20px;
+  display: none;
+  z-index: 100;
+  padding-top: 50px;
+  user-select: none;
+}
+
+.abdomen .sigin span {
+  color: rgb(3, 3, 177);
+}
+
+.abdomen .sigin span:hover {
+  cursor: pointer;
+}
+
+.sigin input {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+}
+
+.sigin button {
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  color: green;
+  border: 1px solid green;
+}
+
+.sigin #submit {
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  color: green;
+  border: 1px solid green;
+}
+
+.sigin #cancel {
+  margin-left: 55px;
+}
+
+.sigin button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.sigin button:active {
+  border: 2px solid green;
+  color: green;
+}
+
+/* sign up */
+
+.sigup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #353a40;
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  transition: all 1s;
+  padding: 20px;
+  display: none;
+  z-index: 100;
+  user-select: none;
+}
+
+.sigup .name {
+  width: 49%;
+}
+
+.sigup input {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+}
+
+.sigup button {
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  color: green;
+  border: 1px solid green;
+}
+
+.abdomen .sigup span {
+  color: rgb(3, 3, 177);
+}
+
+.abdomen .sigup span:hover {
+  cursor: pointer;
+}
+
+.sigup #submit2 {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  color: green;
+  border: 1px solid green;
+}
+
+.sigup #cancel2 {
+  margin-left: 55px;
+}
+
+.sigup button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.sigup button:active {
+  border: 2px solid green;
+  color: green;
+}
+
+/* End Sign up */
+
+.cont {
+  width: 1500px;
+  margin: 0px auto;
+}
+
+/* Home */
+.home {
+  margin: 55px 0px 0px 0px;
+  height: 745px;
+  background: url('../images/wallpapersden.com_building-winter-snow_1920x1098.jpg')
+    fixed 100% no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home button {
+  width: 150px;
+  height: 40px;
+  background-color: rgba(240, 248, 255, 0);
+  outline: none;
+  border: none;
+  color: white;
+  border: 2px solid green;
+}
+
+.home button:hover {
+  background: rgba(255, 255, 255, 0.343);
+}
+
+.home button:active {
+  background: rgba(255, 255, 255, 0.671);
+  color: green;
+}
+
+/* End home*/
+
+/* About */
+.about {
+  display: flex;
+  width: 1500px;
+  margin: 10px auto;
+}
+
+.about .Right {
+  width: 50%;
+  padding: 40px 0px 0px 00px;
+}
+
+.about img {
+  width: 90%;
+  margin-left: 75px;
+}
+
+.about .Left {
+  width: 50%;
+  text-align: justify;
+}
+
+/* end About */
+
+/* service */
+.service {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+}
+
+.service .left {
+  width: 50%;
+  height: 450px;
+  background: url(../images/istockphoto-497799433-170667a.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.service .Right {
+  width: 50%;
+  text-align: center;
+}
+
+.service .Right p {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.service .Right p span {
+  text-align: center;
+  width: 80px;
+  height: 8 0px;
+  margin: 20px 20px;
+  font-weight: bold;
+  transition: all 0.5s;
+  border-radius: 50%;
+}
+
+.service .Right p span i {
+  font-size: 55px;
+}
+
+/* end service */
+
+/* contact */
+
+.contact {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.contact .Right {
+  width: 50%;
+  margin-left: 100px;
+}
+
+.contact .Left {
+  width: 50%;
+}
+
+.contact .Left .input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #353a40;
+  margin: 5px auto;
+  font-size: 20px;
+  color: green;
+}
+
+.contact .Left .button {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(240, 248, 255, 0);
+  outline: none;
+  border: none;
+  color: green;
+  border: 2px solid green;
+  margin: 5px auto;
+  font-size: 20px;
+}
+
+.contact .Left .button:hover {
+  background: rgba(255, 255, 255, 0.343);
+  border: 3px solid green;
+}
+
+.contact .Left .button:active {
+  background: #353a40;
+  color: green;
+  border: 3px solid green;
+}
+
+.contact .Left textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  font-size: 20px;
+  color: green;
+  margin: 5px auto;
+  outline: none;
+  border: none;
+  border: 3px solid #353a40;
+}
+
+/* End contact*/
+
+/* Footer */
+
+footer ul {
+  width: 1500px;
+  margin: 10px auto;
+  height: 40px;
+  background-color: #586069;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 10px;
+  color: white;
+}
+
+/* End Footer */
